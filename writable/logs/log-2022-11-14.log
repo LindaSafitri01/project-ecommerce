@@ -1,0 +1,183 @@
+CRITICAL - 2022-11-14 03:10:04 --> Undefined property: stdClass::$kd_Pengiriman
+#0 D:\Xampp\htdocs\ecommerce\app\Views\pengiriman\pengiriman_view.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Xampp\\htdocs...', 20)
+#1 D:\Xampp\htdocs\ecommerce\system\View\View.php(210): include('D:\\Xampp\\htdocs...')
+#2 D:\Xampp\htdocs\ecommerce\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Xampp\htdocs\ecommerce\system\Common.php(1089): CodeIgniter\View\View->render('pengiriman/peng...', Array, true)
+#4 D:\Xampp\htdocs\ecommerce\app\Views\layout\Konten.php(3): view('pengiriman/peng...')
+#5 D:\Xampp\htdocs\ecommerce\app\Views\layout\Wrapper.php(4): require_once('D:\\Xampp\\htdocs...')
+#6 D:\Xampp\htdocs\ecommerce\system\View\View.php(210): include('D:\\Xampp\\htdocs...')
+#7 D:\Xampp\htdocs\ecommerce\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 D:\Xampp\htdocs\ecommerce\system\Common.php(1089): CodeIgniter\View\View->render('layout/wrapper', Array, true)
+#9 D:\Xampp\htdocs\ecommerce\app\Controllers\Pengiriman.php(13): view('layout/wrapper', Array)
+#10 D:\Xampp\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Pengiriman->index()
+#11 D:\Xampp\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengiriman))
+#12 D:\Xampp\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 D:\Xampp\htdocs\ecommerce\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-11-14 03:10:51 --> Undefined property: stdClass::$kd_Pengiriman
+#0 D:\Xampp\htdocs\ecommerce\app\Views\pengiriman\pengiriman_view.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Xampp\\htdocs...', 20)
+#1 D:\Xampp\htdocs\ecommerce\system\View\View.php(210): include('D:\\Xampp\\htdocs...')
+#2 D:\Xampp\htdocs\ecommerce\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Xampp\htdocs\ecommerce\system\Common.php(1089): CodeIgniter\View\View->render('pengiriman/peng...', Array, true)
+#4 D:\Xampp\htdocs\ecommerce\app\Views\layout\Konten.php(3): view('pengiriman/peng...')
+#5 D:\Xampp\htdocs\ecommerce\app\Views\layout\Wrapper.php(4): require_once('D:\\Xampp\\htdocs...')
+#6 D:\Xampp\htdocs\ecommerce\system\View\View.php(210): include('D:\\Xampp\\htdocs...')
+#7 D:\Xampp\htdocs\ecommerce\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 D:\Xampp\htdocs\ecommerce\system\Common.php(1089): CodeIgniter\View\View->render('layout/wrapper', Array, true)
+#9 D:\Xampp\htdocs\ecommerce\app\Controllers\Pengiriman.php(13): view('layout/wrapper', Array)
+#10 D:\Xampp\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Pengiriman->index()
+#11 D:\Xampp\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengiriman))
+#12 D:\Xampp\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 D:\Xampp\htdocs\ecommerce\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-11-14 20:45:11 --> syntax error, unexpected variable "$data_keranjang"
+#0 D:\Xampp\htdocs\ecommerce\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Keranjang/add/B...')
+#1 D:\Xampp\htdocs\ecommerce\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Keranjang/add/B...')
+#2 D:\Xampp\htdocs\ecommerce\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\Xampp\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Xampp\htdocs\ecommerce\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-14 20:49:16 --> Undefined variable $session
+#0 D:\Xampp\htdocs\ecommerce\app\Controllers\Keranjang.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Xampp\\htdocs...', 23)
+#1 D:\Xampp\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Keranjang->add('B-00002')
+#2 D:\Xampp\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keranjang))
+#3 D:\Xampp\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Xampp\htdocs\ecommerce\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-14 20:49:46 --> Undefined property: App\Controllers\Keranjang::$keranjang
+#0 D:\Xampp\htdocs\ecommerce\app\Controllers\Keranjang.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Xampp\\htdocs...', 29)
+#1 D:\Xampp\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Keranjang->add('B-00002')
+#2 D:\Xampp\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keranjang))
+#3 D:\Xampp\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Xampp\htdocs\ecommerce\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-14 20:50:52 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$qty
+#0 D:\Xampp\htdocs\ecommerce\app\Controllers\Keranjang.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Xampp\\htdocs...', 34)
+#1 D:\Xampp\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Keranjang->add('B-00002')
+#2 D:\Xampp\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keranjang))
+#3 D:\Xampp\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Xampp\htdocs\ecommerce\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-14 20:52:32 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::get_Row()
+#0 D:\Xampp\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Keranjang->add('B-00002')
+#1 D:\Xampp\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keranjang))
+#2 D:\Xampp\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Xampp\htdocs\ecommerce\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-11-14 20:52:52 --> Undefined property: App\Controllers\Keranjang::$load
+#0 D:\Xampp\htdocs\ecommerce\app\Controllers\Keranjang.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Xampp\\htdocs...', 16)
+#1 D:\Xampp\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Keranjang->index()
+#2 D:\Xampp\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keranjang))
+#3 D:\Xampp\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Xampp\htdocs\ecommerce\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-14 21:16:15 --> syntax error, unexpected token ","
+#0 D:\Xampp\htdocs\ecommerce\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('keranjang')
+#1 D:\Xampp\htdocs\ecommerce\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('keranjang')
+#2 D:\Xampp\htdocs\ecommerce\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\Xampp\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Xampp\htdocs\ecommerce\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-14 21:16:52 --> syntax error, unexpected token ","
+#0 D:\Xampp\htdocs\ecommerce\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('keranjang')
+#1 D:\Xampp\htdocs\ecommerce\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('keranjang')
+#2 D:\Xampp\htdocs\ecommerce\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\Xampp\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Xampp\htdocs\ecommerce\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-14 21:17:02 --> syntax error, unexpected token ","
+#0 D:\Xampp\htdocs\ecommerce\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('keranjang')
+#1 D:\Xampp\htdocs\ecommerce\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('keranjang')
+#2 D:\Xampp\htdocs\ecommerce\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\Xampp\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Xampp\htdocs\ecommerce\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-14 21:18:49 --> You must set the database table to be used with your query.
+#0 D:\Xampp\htdocs\ecommerce\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\Xampp\htdocs\ecommerce\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\Xampp\htdocs\ecommerce\app\Controllers\Keranjang.php(68): CodeIgniter\Model->__call('get_last_id', Array)
+#3 D:\Xampp\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Keranjang->checkout()
+#4 D:\Xampp\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keranjang))
+#5 D:\Xampp\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Xampp\htdocs\ecommerce\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-14 21:21:55 --> Undefined property: App\Controllers\Keranjang::$input
+#0 D:\Xampp\htdocs\ecommerce\app\Controllers\Keranjang.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Xampp\\htdocs...', 73)
+#1 D:\Xampp\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Keranjang->checkout()
+#2 D:\Xampp\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keranjang))
+#3 D:\Xampp\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Xampp\htdocs\ecommerce\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-14 21:22:27 --> Undefined variable $model
+#0 D:\Xampp\htdocs\ecommerce\app\Controllers\Keranjang.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Xampp\\htdocs...', 76)
+#1 D:\Xampp\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Keranjang->checkout()
+#2 D:\Xampp\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keranjang))
+#3 D:\Xampp\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Xampp\htdocs\ecommerce\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-14 21:22:47 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+#0 D:\Xampp\htdocs\ecommerce\system\Database\Query.php(318): strtr('INSERT INTO `pe...', Array)
+#1 D:\Xampp\htdocs\ecommerce\system\Database\Query.php(293): CodeIgniter\Database\Query->matchNamedBinds('INSERT INTO `pe...', Array)
+#2 D:\Xampp\htdocs\ecommerce\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#3 D:\Xampp\htdocs\ecommerce\system\Database\BaseConnection.php(598): CodeIgniter\Database\Query->getQuery()
+#4 D:\Xampp\htdocs\ecommerce\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#5 D:\Xampp\htdocs\ecommerce\app\Models\General_model.php(7): CodeIgniter\Database\BaseBuilder->insert(Array)
+#6 D:\Xampp\htdocs\ecommerce\app\Controllers\Keranjang.php(77): App\Models\General_model->add_new('pesan', Array)
+#7 D:\Xampp\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Keranjang->checkout()
+#8 D:\Xampp\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keranjang))
+#9 D:\Xampp\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Xampp\htdocs\ecommerce\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-11-14 21:24:11 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+#0 D:\Xampp\htdocs\ecommerce\system\Database\Query.php(318): strtr('INSERT INTO `pe...', Array)
+#1 D:\Xampp\htdocs\ecommerce\system\Database\Query.php(293): CodeIgniter\Database\Query->matchNamedBinds('INSERT INTO `pe...', Array)
+#2 D:\Xampp\htdocs\ecommerce\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#3 D:\Xampp\htdocs\ecommerce\system\Database\BaseConnection.php(598): CodeIgniter\Database\Query->getQuery()
+#4 D:\Xampp\htdocs\ecommerce\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#5 D:\Xampp\htdocs\ecommerce\app\Models\General_model.php(7): CodeIgniter\Database\BaseBuilder->insert(Array)
+#6 D:\Xampp\htdocs\ecommerce\app\Controllers\Keranjang.php(77): App\Models\General_model->add_new('pesan', Array)
+#7 D:\Xampp\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Keranjang->checkout()
+#8 D:\Xampp\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keranjang))
+#9 D:\Xampp\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Xampp\htdocs\ecommerce\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-11-14 21:27:49 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$no_order
+#0 D:\Xampp\htdocs\ecommerce\app\Controllers\Keranjang.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Xampp\\htdocs...', 72)
+#1 D:\Xampp\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Keranjang->checkout()
+#2 D:\Xampp\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keranjang))
+#3 D:\Xampp\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Xampp\htdocs\ecommerce\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-14 21:28:32 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$no_order
+#0 D:\Xampp\htdocs\ecommerce\app\Controllers\Keranjang.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Xampp\\htdocs...', 72)
+#1 D:\Xampp\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Keranjang->checkout()
+#2 D:\Xampp\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keranjang))
+#3 D:\Xampp\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Xampp\htdocs\ecommerce\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-14 21:29:15 --> Unsupported operand types: string + int
+#0 D:\Xampp\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Keranjang->checkout()
+#1 D:\Xampp\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keranjang))
+#2 D:\Xampp\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Xampp\htdocs\ecommerce\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-11-14 21:29:41 --> Object of class stdClass could not be converted to string
+#0 D:\Xampp\htdocs\ecommerce\system\Database\Query.php(318): strtr('UPDATE `pesan` ...', Array)
+#1 D:\Xampp\htdocs\ecommerce\system\Database\Query.php(293): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `pesan` ...', Array)
+#2 D:\Xampp\htdocs\ecommerce\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#3 D:\Xampp\htdocs\ecommerce\system\Database\BaseConnection.php(598): CodeIgniter\Database\Query->getQuery()
+#4 D:\Xampp\htdocs\ecommerce\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `pesan` ...', Array, false)
+#5 D:\Xampp\htdocs\ecommerce\app\Models\General_model.php(13): CodeIgniter\Database\BaseBuilder->update(Array)
+#6 D:\Xampp\htdocs\ecommerce\app\Controllers\Keranjang.php(98): App\Models\General_model->edit_data('pesan', Array, Array)
+#7 D:\Xampp\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Keranjang->checkout()
+#8 D:\Xampp\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keranjang))
+#9 D:\Xampp\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Xampp\htdocs\ecommerce\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-11-14 21:33:15 --> Attempt to read property "no_order" on null
+#0 D:\Xampp\htdocs\ecommerce\app\Controllers\Keranjang.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\Xampp\\htdocs...', 72)
+#1 D:\Xampp\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Keranjang->checkout()
+#2 D:\Xampp\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keranjang))
+#3 D:\Xampp\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Xampp\htdocs\ecommerce\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

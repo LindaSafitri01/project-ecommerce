@@ -1,0 +1,14 @@
+CRITICAL - 2023-03-27 23:41:25 --> syntax error, unexpected 'Controllers' (T_STRING), expecting '{'
+#0 C:\xampp1\htdocs\ecommerce\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('latihan')
+#1 C:\xampp1\htdocs\ecommerce\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('latihan')
+#2 C:\xampp1\htdocs\ecommerce\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp1\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-27 23:42:30 --> syntax error, unexpected 'Controllers' (T_STRING), expecting '{'
+#0 C:\xampp1\htdocs\ecommerce\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('latihan')
+#1 C:\xampp1\htdocs\ecommerce\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('latihan')
+#2 C:\xampp1\htdocs\ecommerce\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp1\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

@@ -1,0 +1,92 @@
+CRITICAL - 2023-06-22 02:39:43 --> Call to undefined method App\Models\Pesan_model::get_data_pesan
+#0 C:\xampp\htdocs\ecommerce\app\Controllers\Pembayaran.php(21): CodeIgniter\Model->__call('get_data_pesan', Array)
+#1 C:\xampp\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Pembayaran->tambah()
+#2 C:\xampp\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#3 C:\xampp\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ecommerce\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-22 02:40:55 --> Invalid file: pemabyaran/tambah_pembayaran.php
+#0 C:\xampp\htdocs\ecommerce\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pemabyaran/tamb...')
+#1 C:\xampp\htdocs\ecommerce\system\Common.php(1089): CodeIgniter\View\View->render('pemabyaran/tamb...', Array, true)
+#2 C:\xampp\htdocs\ecommerce\app\Views\layout\Konten.php(3): view('pemabyaran/tamb...')
+#3 C:\xampp\htdocs\ecommerce\app\Views\layout\Wrapper.php(4): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\ecommerce\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ecommerce\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\xampp\htdocs\ecommerce\system\Common.php(1089): CodeIgniter\View\View->render('layout/wrapper', Array, true)
+#7 C:\xampp\htdocs\ecommerce\app\Controllers\Pembayaran.php(24): view('layout/wrapper', Array)
+#8 C:\xampp\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Pembayaran->tambah()
+#9 C:\xampp\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#10 C:\xampp\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ecommerce\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-06-22 02:42:03 --> Undefined variable: data_pesam
+#0 C:\xampp\htdocs\ecommerce\app\Views\pembayaran\tambah_pembayaran.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 C:\xampp\htdocs\ecommerce\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ecommerce\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ecommerce\system\Common.php(1089): CodeIgniter\View\View->render('pembayaran/tamb...', Array, true)
+#4 C:\xampp\htdocs\ecommerce\app\Views\layout\Konten.php(3): view('pembayaran/tamb...')
+#5 C:\xampp\htdocs\ecommerce\app\Views\layout\Wrapper.php(4): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\ecommerce\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\ecommerce\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 C:\xampp\htdocs\ecommerce\system\Common.php(1089): CodeIgniter\View\View->render('layout/wrapper', Array, true)
+#9 C:\xampp\htdocs\ecommerce\app\Controllers\Pembayaran.php(24): view('layout/wrapper', Array)
+#10 C:\xampp\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Pembayaran->tambah()
+#11 C:\xampp\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#12 C:\xampp\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\ecommerce\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2023-06-22 02:51:37 --> Class 'App\Models\Pelanggan_model' not found
+#0 C:\xampp\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Pesan->tambah()
+#1 C:\xampp\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesan))
+#2 C:\xampp\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ecommerce\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2023-06-22 03:01:46 --> Table 'ecommerce.keranjang' doesn't exist
+CRITICAL - 2023-06-22 03:01:46 --> Table 'ecommerce.keranjang' doesn't exist
+#0 C:\xampp\htdocs\ecommerce\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ecommerce\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ecommerce\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ecommerce\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ecommerce\system\Model.php(728): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 C:\xampp\htdocs\ecommerce\app\Models\Keranjang_model.php(8): CodeIgniter\Model->__call('getWhere', Array)
+#6 C:\xampp\htdocs\ecommerce\app\Controllers\Keranjang.php(28): App\Models\Keranjang_model->get_data_keranjang('LS001', 'B-0001')
+#7 C:\xampp\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Keranjang->add('B-0001')
+#8 C:\xampp\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keranjang))
+#9 C:\xampp\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ecommerce\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-06-22 03:06:11 --> Table 'ecommerce.keranjang' doesn't exist
+CRITICAL - 2023-06-22 03:06:11 --> Table 'ecommerce.keranjang' doesn't exist
+#0 C:\xampp\htdocs\ecommerce\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ecommerce\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ecommerce\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ecommerce\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ecommerce\system\Model.php(728): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 C:\xampp\htdocs\ecommerce\app\Models\Keranjang_model.php(8): CodeIgniter\Model->__call('getWhere', Array)
+#6 C:\xampp\htdocs\ecommerce\app\Controllers\Keranjang.php(28): App\Models\Keranjang_model->get_data_keranjang('LS001', 'B-0001')
+#7 C:\xampp\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Keranjang->add('B-0001')
+#8 C:\xampp\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keranjang))
+#9 C:\xampp\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ecommerce\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-06-22 03:36:48 --> Table 'ecommerce.keranjang' doesn't exist
+CRITICAL - 2023-06-22 03:36:48 --> Table 'ecommerce.keranjang' doesn't exist
+#0 C:\xampp\htdocs\ecommerce\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ecommerce\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ecommerce\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ecommerce\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ecommerce\system\Model.php(728): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 C:\xampp\htdocs\ecommerce\app\Models\Keranjang_model.php(8): CodeIgniter\Model->__call('getWhere', Array)
+#6 C:\xampp\htdocs\ecommerce\app\Controllers\Keranjang.php(28): App\Models\Keranjang_model->get_data_keranjang('LS001', 'B-0002')
+#7 C:\xampp\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Keranjang->add('B-0002')
+#8 C:\xampp\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keranjang))
+#9 C:\xampp\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ecommerce\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-22 04:29:55 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\ecommerce\app\Controllers\Keranjang.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 71, Array)
+#1 C:\xampp\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Keranjang->checkout()
+#2 C:\xampp\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keranjang))
+#3 C:\xampp\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ecommerce\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

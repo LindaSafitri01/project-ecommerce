@@ -1,0 +1,12 @@
+CRITICAL - 2022-10-24 00:11:51 --> Class "App\Controllers\Pelanggan_model" not found
+#0 D:\Xampp\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#1 D:\Xampp\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\Xampp\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Xampp\htdocs\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-24 00:14:20 --> Class "App\Controllers\Pelanggan_model" not found
+#0 D:\Xampp\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#1 D:\Xampp\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\Xampp\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Xampp\htdocs\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

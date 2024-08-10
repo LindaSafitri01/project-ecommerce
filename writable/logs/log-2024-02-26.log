@@ -1,0 +1,18 @@
+CRITICAL - 2024-02-26 11:20:22 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\ecommerce\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\ecommerce\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\ecommerce\app\Controllers\Keranjang.php(18): redirect('/login')
+#3 C:\xampp\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Keranjang->index()
+#4 C:\xampp\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keranjang))
+#5 C:\xampp\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ecommerce\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-02-26 11:20:36 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\ecommerce\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\ecommerce\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\ecommerce\app\Controllers\Keranjang.php(18): redirect('/login')
+#3 C:\xampp\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Keranjang->index()
+#4 C:\xampp\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keranjang))
+#5 C:\xampp\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ecommerce\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

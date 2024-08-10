@@ -1,0 +1,20 @@
+CRITICAL - 2023-05-15 22:59:05 --> Class 'App\Models\Retur_model' not found
+#0 C:\xampp\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Retur->index()
+#1 C:\xampp\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Retur))
+#2 C:\xampp\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ecommerce\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-05-15 23:17:20 --> Invalid file: retur/retur_pelanggan.php
+#0 C:\xampp\htdocs\ecommerce\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('retur/retur_pel...')
+#1 C:\xampp\htdocs\ecommerce\system\Common.php(1089): CodeIgniter\View\View->render('retur/retur_pel...', Array, true)
+#2 C:\xampp\htdocs\ecommerce\app\Views\layout\konten.php(3): view('retur/retur_pel...')
+#3 C:\xampp\htdocs\ecommerce\app\Views\layout\wrapper.php(4): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\ecommerce\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ecommerce\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\xampp\htdocs\ecommerce\system\Common.php(1089): CodeIgniter\View\View->render('layout/wrapper', Array, true)
+#7 C:\xampp\htdocs\ecommerce\app\Controllers\Retur.php(21): view('layout/wrapper', Array)
+#8 C:\xampp\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Retur->tambah()
+#9 C:\xampp\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Retur))
+#10 C:\xampp\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ecommerce\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}

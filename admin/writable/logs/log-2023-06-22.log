@@ -1,0 +1,13 @@
+ERROR - 2023-06-22 03:14:13 --> Duplicate entry 'B-0001-O-0001' for key 'PRIMARY'
+CRITICAL - 2023-06-22 03:14:13 --> Duplicate entry 'B-0001-O-0001' for key 'PRIMARY'
+#0 C:\xampp\htdocs\ecommerce\admin\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ad...', 0)
+#1 C:\xampp\htdocs\ecommerce\admin\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ad...')
+#2 C:\xampp\htdocs\ecommerce\admin\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ad...')
+#3 C:\xampp\htdocs\ecommerce\admin\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ad...', Array, false)
+#4 C:\xampp\htdocs\ecommerce\admin\app\Models\General_model.php(7): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\ecommerce\admin\app\Controllers\Pesan.php(52): App\Models\General_model->add_new('ada', Array)
+#6 C:\xampp\htdocs\ecommerce\admin\system\CodeIgniter.php(832): App\Controllers\Pesan->tambah()
+#7 C:\xampp\htdocs\ecommerce\admin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesan))
+#8 C:\xampp\htdocs\ecommerce\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ecommerce\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}

@@ -1,0 +1,66 @@
+CRITICAL - 2023-05-08 22:53:37 --> Trying to get property 'nama_pelanggan' of non-object
+#0 C:\xampp\htdocs\ecommerce\app\Views\pelanggan\edit_pelanggan.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 11, Array)
+#1 C:\xampp\htdocs\ecommerce\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ecommerce\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ecommerce\system\Common.php(1089): CodeIgniter\View\View->render('pelanggan/edit_...', Array, true)
+#4 C:\xampp\htdocs\ecommerce\app\Views\layout\konten.php(3): view('pelanggan/edit_...')
+#5 C:\xampp\htdocs\ecommerce\app\Views\layout\wrapper.php(4): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\ecommerce\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\ecommerce\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 C:\xampp\htdocs\ecommerce\system\Common.php(1089): CodeIgniter\View\View->render('layout/wrapper', Array, true)
+#9 C:\xampp\htdocs\ecommerce\app\Controllers\Pelanggan.php(48): view('layout/wrapper', Array)
+#10 C:\xampp\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Pelanggan->edit('dist', 'img', 'user1-128x128.j...')
+#11 C:\xampp\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelanggan))
+#12 C:\xampp\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\ecommerce\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2023-05-08 22:53:37 --> Trying to get property 'nama_pelanggan' of non-object
+#0 C:\xampp\htdocs\ecommerce\app\Views\pelanggan\edit_pelanggan.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 11, Array)
+#1 C:\xampp\htdocs\ecommerce\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ecommerce\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ecommerce\system\Common.php(1089): CodeIgniter\View\View->render('pelanggan/edit_...', Array, true)
+#4 C:\xampp\htdocs\ecommerce\app\Views\layout\konten.php(3): view('pelanggan/edit_...')
+#5 C:\xampp\htdocs\ecommerce\app\Views\layout\wrapper.php(4): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\ecommerce\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\ecommerce\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 C:\xampp\htdocs\ecommerce\system\Common.php(1089): CodeIgniter\View\View->render('layout/wrapper', Array, true)
+#9 C:\xampp\htdocs\ecommerce\app\Controllers\Pelanggan.php(48): view('layout/wrapper', Array)
+#10 C:\xampp\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Pelanggan->edit('dist', 'img', 'user8-128x128.j...')
+#11 C:\xampp\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelanggan))
+#12 C:\xampp\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\ecommerce\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2023-05-08 22:53:37 --> Trying to get property 'nama_pelanggan' of non-object
+#0 C:\xampp\htdocs\ecommerce\app\Views\pelanggan\edit_pelanggan.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 11, Array)
+#1 C:\xampp\htdocs\ecommerce\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ecommerce\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ecommerce\system\Common.php(1089): CodeIgniter\View\View->render('pelanggan/edit_...', Array, true)
+#4 C:\xampp\htdocs\ecommerce\app\Views\layout\konten.php(3): view('pelanggan/edit_...')
+#5 C:\xampp\htdocs\ecommerce\app\Views\layout\wrapper.php(4): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\ecommerce\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\ecommerce\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 C:\xampp\htdocs\ecommerce\system\Common.php(1089): CodeIgniter\View\View->render('layout/wrapper', Array, true)
+#9 C:\xampp\htdocs\ecommerce\app\Controllers\Pelanggan.php(48): view('layout/wrapper', Array)
+#10 C:\xampp\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Pelanggan->edit('dist', 'img', 'user3-128x128.j...')
+#11 C:\xampp\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelanggan))
+#12 C:\xampp\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\ecommerce\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2023-05-08 23:57:46 --> Class 'App\Models\Barang_model' not found
+#0 C:\xampp\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Barang->index()
+#1 C:\xampp\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#2 C:\xampp\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ecommerce\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-05-08 23:58:36 --> Class 'App\Models\Barang_model' not found
+#0 C:\xampp\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Barang->index()
+#1 C:\xampp\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#2 C:\xampp\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ecommerce\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-05-08 23:59:15 --> Class 'App\Models\Barang_model' not found
+#0 C:\xampp\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Barang->index()
+#1 C:\xampp\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#2 C:\xampp\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ecommerce\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

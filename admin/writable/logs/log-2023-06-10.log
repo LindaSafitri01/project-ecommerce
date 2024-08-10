@@ -1,0 +1,110 @@
+CRITICAL - 2023-06-10 03:19:25 --> Call to undefined method App\Models\Pembayaran_model::get_data_pembayaran
+#0 C:\xampp\htdocs\ecommerce\admin\app\Controllers\Pengiriman.php(21): CodeIgniter\Model->__call('get_data_pembay...', Array)
+#1 C:\xampp\htdocs\ecommerce\admin\system\CodeIgniter.php(832): App\Controllers\Pengiriman->tambah()
+#2 C:\xampp\htdocs\ecommerce\admin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengiriman))
+#3 C:\xampp\htdocs\ecommerce\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ecommerce\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-10 03:22:15 --> Call to undefined method App\Models\Pembayaran_model::get_data_pembayaran
+#0 C:\xampp\htdocs\ecommerce\admin\app\Controllers\Pengiriman.php(21): CodeIgniter\Model->__call('get_data_pembay...', Array)
+#1 C:\xampp\htdocs\ecommerce\admin\system\CodeIgniter.php(832): App\Controllers\Pengiriman->tambah()
+#2 C:\xampp\htdocs\ecommerce\admin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengiriman))
+#3 C:\xampp\htdocs\ecommerce\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ecommerce\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-10 03:31:29 --> syntax error, unexpected '}', expecting end of file
+#0 C:\xampp\htdocs\ecommerce\admin\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Pengiriman/tamb...')
+#1 C:\xampp\htdocs\ecommerce\admin\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Pengiriman/tamb...')
+#2 C:\xampp\htdocs\ecommerce\admin\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\ecommerce\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ecommerce\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-10 03:31:56 --> syntax error, unexpected '}', expecting end of file
+#0 C:\xampp\htdocs\ecommerce\admin\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Pengiriman/tamb...')
+#1 C:\xampp\htdocs\ecommerce\admin\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Pengiriman/tamb...')
+#2 C:\xampp\htdocs\ecommerce\admin\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\ecommerce\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ecommerce\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-10 03:32:58 --> Call to undefined method App\Models\Pembayaran_model::get_data_pembayaran
+#0 C:\xampp\htdocs\ecommerce\admin\app\Controllers\Pengiriman.php(21): CodeIgniter\Model->__call('get_data_pembay...', Array)
+#1 C:\xampp\htdocs\ecommerce\admin\system\CodeIgniter.php(832): App\Controllers\Pengiriman->tambah()
+#2 C:\xampp\htdocs\ecommerce\admin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengiriman))
+#3 C:\xampp\htdocs\ecommerce\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ecommerce\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-10 03:34:10 --> Undefined variable: data_pembayaran
+#0 C:\xampp\htdocs\ecommerce\admin\app\Views\pengiriman\tambah_pengiriman.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\ecommerce\admin\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ecommerce\admin\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ecommerce\admin\system\Common.php(1089): CodeIgniter\View\View->render('pengiriman/tamb...', Array, true)
+#4 C:\xampp\htdocs\ecommerce\admin\app\Views\layout\konten.php(3): view('pengiriman/tamb...')
+#5 C:\xampp\htdocs\ecommerce\admin\app\Views\layout\wrapper.php(4): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\ecommerce\admin\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\ecommerce\admin\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 C:\xampp\htdocs\ecommerce\admin\system\Common.php(1089): CodeIgniter\View\View->render('layout/wrapper', Array, true)
+#9 C:\xampp\htdocs\ecommerce\admin\app\Controllers\Pengiriman.php(23): view('layout/wrapper', Array)
+#10 C:\xampp\htdocs\ecommerce\admin\system\CodeIgniter.php(832): App\Controllers\Pengiriman->tambah()
+#11 C:\xampp\htdocs\ecommerce\admin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengiriman))
+#12 C:\xampp\htdocs\ecommerce\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\ecommerce\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2023-06-10 03:34:39 --> Undefined variable: data_pembayaran
+#0 C:\xampp\htdocs\ecommerce\admin\app\Views\pengiriman\tambah_pengiriman.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\ecommerce\admin\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ecommerce\admin\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ecommerce\admin\system\Common.php(1089): CodeIgniter\View\View->render('pengiriman/tamb...', Array, true)
+#4 C:\xampp\htdocs\ecommerce\admin\app\Views\layout\konten.php(3): view('pengiriman/tamb...')
+#5 C:\xampp\htdocs\ecommerce\admin\app\Views\layout\wrapper.php(4): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\ecommerce\admin\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\ecommerce\admin\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 C:\xampp\htdocs\ecommerce\admin\system\Common.php(1089): CodeIgniter\View\View->render('layout/wrapper', Array, true)
+#9 C:\xampp\htdocs\ecommerce\admin\app\Controllers\Pengiriman.php(22): view('layout/wrapper', Array)
+#10 C:\xampp\htdocs\ecommerce\admin\system\CodeIgniter.php(832): App\Controllers\Pengiriman->tambah()
+#11 C:\xampp\htdocs\ecommerce\admin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengiriman))
+#12 C:\xampp\htdocs\ecommerce\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\ecommerce\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2023-06-10 03:34:41 --> Undefined variable: data_pembayaran
+#0 C:\xampp\htdocs\ecommerce\admin\app\Views\pengiriman\tambah_pengiriman.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\ecommerce\admin\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ecommerce\admin\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ecommerce\admin\system\Common.php(1089): CodeIgniter\View\View->render('pengiriman/tamb...', Array, true)
+#4 C:\xampp\htdocs\ecommerce\admin\app\Views\layout\konten.php(3): view('pengiriman/tamb...')
+#5 C:\xampp\htdocs\ecommerce\admin\app\Views\layout\wrapper.php(4): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\ecommerce\admin\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\ecommerce\admin\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 C:\xampp\htdocs\ecommerce\admin\system\Common.php(1089): CodeIgniter\View\View->render('layout/wrapper', Array, true)
+#9 C:\xampp\htdocs\ecommerce\admin\app\Controllers\Pengiriman.php(22): view('layout/wrapper', Array)
+#10 C:\xampp\htdocs\ecommerce\admin\system\CodeIgniter.php(832): App\Controllers\Pengiriman->tambah()
+#11 C:\xampp\htdocs\ecommerce\admin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengiriman))
+#12 C:\xampp\htdocs\ecommerce\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\ecommerce\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2023-06-10 03:47:42 --> Call to undefined method App\Models\Pembayaran_model::get_data_pembayaran
+#0 C:\xampp\htdocs\ecommerce\admin\app\Controllers\Pengiriman.php(21): CodeIgniter\Model->__call('get_data_pembay...', Array)
+#1 C:\xampp\htdocs\ecommerce\admin\system\CodeIgniter.php(832): App\Controllers\Pengiriman->tambah()
+#2 C:\xampp\htdocs\ecommerce\admin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengiriman))
+#3 C:\xampp\htdocs\ecommerce\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ecommerce\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-10 03:48:53 --> Call to undefined method App\Models\Pembayaran_model::get_data_pembayaran
+#0 C:\xampp\htdocs\ecommerce\admin\app\Controllers\Pengiriman.php(21): CodeIgniter\Model->__call('get_data_pembay...', Array)
+#1 C:\xampp\htdocs\ecommerce\admin\system\CodeIgniter.php(832): App\Controllers\Pengiriman->tambah()
+#2 C:\xampp\htdocs\ecommerce\admin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengiriman))
+#3 C:\xampp\htdocs\ecommerce\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ecommerce\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-06-10 04:08:39 --> Unknown column 'no_resi' in 'field list'
+CRITICAL - 2023-06-10 04:08:39 --> Unknown column 'no_resi' in 'field list'
+#0 C:\xampp\htdocs\ecommerce\admin\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\ecommerce\admin\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\ecommerce\admin\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\ecommerce\admin\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\ecommerce\admin\app\Models\General_model.php(7): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\ecommerce\admin\app\Controllers\Pengiriman.php(34): App\Models\General_model->add_new('pengiriman', Array)
+#6 C:\xampp\htdocs\ecommerce\admin\system\CodeIgniter.php(832): App\Controllers\Pengiriman->tambah()
+#7 C:\xampp\htdocs\ecommerce\admin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengiriman))
+#8 C:\xampp\htdocs\ecommerce\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ecommerce\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
